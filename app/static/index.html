@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Tutor Agent</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head><body>
+    <div class="container">
+        <header>
+            <h1>🤖 AI Tutor Agent</h1>
+            <p>Ask a question about Math or Physics!</p>
+        </header>
+        <main>
+            <div class="chat-box" id="chat-box">
+                <div class="message bot-message">
+                    <p>Hello! How can I help you today? Try asking "What is 3+5?" or "What is Newton's second law?".</p>
+                </div>
+            </div>
+            <div class="input-area">
+                <input type="text" id="user-input" placeholder="Type your question here..." autocomplete="off">
+                <button id="send-btn">Send</button>
+            </div>
+             <div id="loader" class="loader" style="display: none;"></div>
+        </main>
+        <footer>
+            <p>Powered by Gemini & FastAPI</p>
+        </footer>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
